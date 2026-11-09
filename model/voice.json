@@ -1,0 +1,46 @@
+{
+  "name": "A 柔顺版 · 顺句优化",
+  "release_version": "1.0.0",
+  "architecture": "GPT-SoVITS v2ProPlus",
+  "upstream_repository": "https://github.com/RVC-Boss/GPT-SoVITS",
+  "upstream_commit": "04a44eb977586645f33594b72af13a035a2056c6",
+  "gpt": {
+    "package_path": "model/weights/my_voice_v1-e4.ckpt",
+    "engine_path": "GPT_weights_v2ProPlus/my_voice_v1-e4.ckpt"
+  },
+  "sovits": {
+    "package_path": "model/weights/my_voice_neutral_v1_e2_s216.pth",
+    "engine_path": "SoVITS_weights_v2ProPlus/my_voice_neutral_v1_e2_s216.pth"
+  },
+  "reference_audio": "model/reference.wav",
+  "reference_text": "如果你刚开始使用这个功能，可以先跟着提示完成设置，熟悉之后，再按照自己的习惯慢慢调整。",
+  "sample_rate": 32000,
+  "pitch_shift_semitones": 0,
+  "pause_second": 0.24,
+  "AI_spoken_form": "诶挨",
+  "AI_second_syllable": "ai1",
+  "training": {
+    "accepted_clips": 54,
+    "accepted_seconds": 444.3,
+    "gpt_epochs": 4,
+    "sovits_epochs": 2
+  },
+  "gpt_inference_max_seconds": 54,
+  "artifacts": [
+    {
+      "path": "model/weights/my_voice_v1-e4.ckpt",
+      "bytes": 155308076,
+      "sha256": "156b8f58e0d68aeefc6000d427c5c3e2fb3b7d71922357098704599864863d1e"
+    },
+    {
+      "path": "model/weights/my_voice_neutral_v1_e2_s216.pth",
+      "bytes": 172755955,
+      "sha256": "5296565b167c7bb6c9a2b5fcb87399cc6792d450f5d86d81a555754081783c74"
+    },
+    {
+      "path": "model/reference.wav",
+      "bytes": 550444,
+      "sha256": "f27a5558b41f03d78b443febeb376f9c3fb6f398d910a67df583e661a0d33d0f"
+    }
+  ]
+}

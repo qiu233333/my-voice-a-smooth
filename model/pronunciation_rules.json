@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "rules": [
+    {
+      "name": "standalone AI letters",
+      "pattern": "(?<![A-Za-z0-9_])A[ \\t]*I(?![A-Za-z0-9_])",
+      "spoken": "诶挨",
+      "purpose": "User explicitly requests the second syllable like 挨 (ai1), not 矮 (ai3) or 爱 (ai4). Leaves OpenAI and ASCII identifiers intact."
+    }
+  ]
+}

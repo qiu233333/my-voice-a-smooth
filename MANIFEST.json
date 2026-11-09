@@ -1,0 +1,161 @@
+{
+  "project": "my-voice-a-smooth",
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 129,
+      "sha256": "ef92c907d339993436c4d66a1da319c174b3424de7648045e704e1a0b9fa46d2"
+    },
+    {
+      "path": "AGENT_USAGE.md",
+      "bytes": 3451,
+      "sha256": "91ee8f7133eceb99b02b7b86509882324985977d137a5828d9fc3d46bcfd9645"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 1742,
+      "sha256": "731342e3b01890fbd4cd1aac6f2b88fe3cf711c5908479d583e9a398d225d6f3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2752,
+      "sha256": "dce31bd3cd0d61cbe8d08314f78b29bedfe0332291836a35d5eab4f4d37c883b"
+    },
+    {
+      "path": "Start-WebUI.bat",
+      "bytes": 123,
+      "sha256": "a50dab48b43d06b0d91abc6166329fc4905866be9f441a0eba80d59b49c17cc5"
+    },
+    {
+      "path": "Start-WebUI.ps1",
+      "bytes": 1706,
+      "sha256": "c1d012fadc7e67c4c5515ad3d08f8ec4b287bb12dbb4cb4490638789a2b3a82a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 820,
+      "sha256": "4249c38b33d631941eec5a08b113289bc55be46deaef05af79897ed4cd590d6c"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 740,
+      "sha256": "8fc52448d051e6e1d769a32a7714efe43cd99f2e143f1822cf2e9247d2c40824"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 2885,
+      "sha256": "524ebbff3c19213d0f3c9a4a0fdb54908b2b9e441205d0c7d6fcc3dc775dfcfd"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "bytes": 3179,
+      "sha256": "243c56590aaeb457cac6f891e708bcfdcfbbf56d351c98b9b4efed587406f4a8"
+    },
+    {
+      "path": "docs/engine-requirements-tested.txt",
+      "bytes": 889,
+      "sha256": "9665701314db102e7558f9ea28d80e4ab0bfccadcc2c9692b2b9ceda14134fc9"
+    },
+    {
+      "path": "engine_runner.py",
+      "bytes": 1670,
+      "sha256": "451910718bbfb163f24352adf57f59ab911a38e6c31ea639e051dc25296458ae"
+    },
+    {
+      "path": "licenses/GPT-SoVITS-MIT.txt",
+      "bytes": 1086,
+      "sha256": "eed809f99380a02c5ce389f8984c8af3570554e12ef38d072361471943c7ce22"
+    },
+    {
+      "path": "model/A_fluent_v1.json",
+      "bytes": 661,
+      "sha256": "d66439f466ca84f995c2273920ae06c509ae548d109be138b442c1a1d1c82977"
+    },
+    {
+      "path": "model/A_smooth_v1.json",
+      "bytes": 1009,
+      "sha256": "1422cd4d7f018c2fb69719270c9b931a1d63983b7976522aa747ea5e1901a849"
+    },
+    {
+      "path": "model/pronunciation_rules.json",
+      "bytes": 332,
+      "sha256": "c8d7d3d4d0c175a20e4713148443b2cfe7aa72ea0ab5a6b687251e762a0178c4"
+    },
+    {
+      "path": "model/reference.wav",
+      "bytes": 550444,
+      "sha256": "f27a5558b41f03d78b443febeb376f9c3fb6f398d910a67df583e661a0d33d0f"
+    },
+    {
+      "path": "model/voice.json",
+      "bytes": 1622,
+      "sha256": "fe81be071bad16ad7c2f9a301d9b15aa79c2a5680c208d41e355f0901a492286"
+    },
+    {
+      "path": "model/weights/my_voice_neutral_v1_e2_s216.pth",
+      "bytes": 172755955,
+      "sha256": "5296565b167c7bb6c9a2b5fcb87399cc6792d450f5d86d81a555754081783c74"
+    },
+    {
+      "path": "model/weights/my_voice_v1-e4.ckpt",
+      "bytes": 155308076,
+      "sha256": "156b8f58e0d68aeefc6000d427c5c3e2fb3b7d71922357098704599864863d1e"
+    },
+    {
+      "path": "pronunciation.py",
+      "bytes": 495,
+      "sha256": "21ee2cc610c496ff7a59d6c7601d0aa9f808ef071e0ecd9ae64d7266608003ef"
+    },
+    {
+      "path": "prosody.py",
+      "bytes": 1234,
+      "sha256": "76b2babc1a32ad93193fb2c34491acb8a222f32a859d02f07be90a192faf1331"
+    },
+    {
+      "path": "requirements-client.txt",
+      "bytes": 175,
+      "sha256": "919d7446a1908e624dd6bb0bb0c51d87410306cf9233a93bc7c05c176cd1b020"
+    },
+    {
+      "path": "runtime.example.json",
+      "bytes": 61,
+      "sha256": "9682faf335b51c0a1a76f744efd562bbfebb224605ad959c9c6247e9cffdc7e4"
+    },
+    {
+      "path": "samples/A-smooth-preview.mp3",
+      "bytes": 457101,
+      "sha256": "05e408de8c89e194d7ecbecc2a4640d6b133ac94f2e5ee6c400772f9c74c494e"
+    },
+    {
+      "path": "samples/example.txt",
+      "bytes": 270,
+      "sha256": "2ad36f5a7a7a9f173c701dc0f73a60679ab9399849e6325d96d909d370313bc2"
+    },
+    {
+      "path": "smooth_A.py",
+      "bytes": 4602,
+      "sha256": "900a048d7ce9d449bd1330692f663a74054c3225711eb046ac2c5d0a572466b2"
+    },
+    {
+      "path": "synthesize.py",
+      "bytes": 1277,
+      "sha256": "6936ad8d70bd67425973bc9470059d398c271112bde1c000045a64846c99a610"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 515,
+      "sha256": "88f49d9614ff15ac4df671fbd0cfbc19315e4a5639bbcec29d28cd07c411581d"
+    },
+    {
+      "path": "voice_core.py",
+      "bytes": 10433,
+      "sha256": "f34561a376e3b69eb870da3b528dca1218d5ac22b3c49e69b576db18fa798e9a"
+    },
+    {
+      "path": "webui.py",
+      "bytes": 1848,
+      "sha256": "46f98c3188f986f2b9a26965063b0c7d8fece776fa3b4a0e46010f8f656dc86d"
+    }
+  ]
+}

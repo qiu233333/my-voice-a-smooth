@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.work/
+logs/
+outputs/
+runtime.local.json
+model/weights/
+model/reference.wav
+samples/*.wav
+samples/*.mp3
+*.zip

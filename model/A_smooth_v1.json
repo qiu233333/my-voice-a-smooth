@@ -1,0 +1,32 @@
+{
+  "name": "A 柔顺修整 V1",
+  "source_style": "自然中性 A",
+  "pitch_shift_semitones": 0,
+  "time_stretch": 1.0,
+  "declick": "adeclick=w=25:o=75:a=2:t=5:b=1",
+  "highpass_hz": 55,
+  "dynamic_bands": [
+    {
+      "low_hz": 180,
+      "high_hz": 650,
+      "threshold_percentile": 70,
+      "max_extra_cut_db": 2.2,
+      "static_cut_db": 0.4,
+      "slope": 1.5
+    },
+    {
+      "low_hz": 850,
+      "high_hz": 1800,
+      "threshold_percentile": 75,
+      "max_extra_cut_db": 1.2,
+      "static_cut_db": 0.0,
+      "slope": 0.7
+    }
+  ],
+  "gain_attack_ms": 18,
+  "gain_release_ms": 130,
+  "compressor": "acompressor=threshold=0.18:ratio=1.35:attack=12:release=100:makeup=1:knee=2.8:detection=rms",
+  "target_loudness_lufs": -18,
+  "true_peak_limit_dbtp": -1.5,
+  "limitations": "Light post-processing can reduce impulsive roughness and prominent resonances; it cannot completely reconstruct a constricted synthesized syllable or guarantee perceived smoothness."
+}

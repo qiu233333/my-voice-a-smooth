@@ -1,0 +1,15 @@
+{
+  "name": "A 柔顺版 · 顺句优化",
+  "preset": "smooth",
+  "how_to_cut": "不切",
+  "pause_second": 0.24,
+  "temperature": 1.0,
+  "top_k": 15,
+  "top_p": 1.0,
+  "text_preparation": "prosody.prepare_fluent_text: sentence boundaries; long sentences split at existing Chinese commas; no automatic word rewriting",
+  "reference_audio": "model/reference.wav",
+  "reference_rate_ratio": 1.0,
+  "pitch_shift_semitones": 0,
+  "processor": "smooth_A.py",
+  "notes": "Only sentence segmentation and pause length changed. A weights, natural reference, inference sampling and smoothing processor are retained. AI pronunciation rules are unchanged."
+}
